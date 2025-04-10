@@ -49,11 +49,11 @@ def add_scaled_png_tag(image_path, tag_path, distance_from_bottom, output_folder
     print(f"Saved: {output_path}")
 
 # Folder containing JPG images
-image_directory = r"D:\Soyuru Sathkara\Photos"
+image_directory = r"FileLocation\Folder"
 # Path to the PNG tag
-tag_image_path = r"D:\Soyuru Sathkara\tag final.png"
+tag_image_path = r"FileLocation\file.png"
 # Output folder for processed images
-output_folder = r"D:\Soyuru Sathkara\output_images"
+output_folder = r"FileLocation\Folder"
 os.makedirs(output_folder, exist_ok=True)
 
 # Distance from the bottom (in pixels)
